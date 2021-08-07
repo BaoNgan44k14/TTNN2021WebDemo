@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import 'boxicons';
 // 
-import './src/scss-css/index.scss';
-import AppRouter from './src/AppRouter';
-import LayoutAdmin from './src/adminpage/layout/LayoutAdmin';
-import LayoutHome from './src/homepage/layout/LayoutHome';
+import './scss-css/index.scss';
+import AppRouter from './AppRouter';
+import LayoutAdmin from './adminpage/layout/LayoutAdmin';
+import LayoutHome from './homepage/layout/LayoutHome';
 // 
 
 
@@ -16,7 +16,7 @@ import LayoutHome from './src/homepage/layout/LayoutHome';
 ReactDOM.render(
   <React.StrictMode>
     
-    <AppRouter />
+    <LayoutAdmin />
   </React.StrictMode>,
   document.getElementById('root')
 );

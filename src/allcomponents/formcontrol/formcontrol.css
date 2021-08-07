@@ -43,8 +43,3 @@ input[type='radio'] {
 .form-control {
     margin-bottom: 20px;
 }
-.error {
-    color: red;
-    margin: 5px;
-    font-size: 0.8rem;
-}
