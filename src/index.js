@@ -15,7 +15,7 @@ import './scss-css/index.scss'
 ReactDOM.render(
   <React.StrictMode>
     
-    <LayoutAdmin/>
+    <LayoutHome/>
   </React.StrictMode>,
   document.getElementById('root')
 );
