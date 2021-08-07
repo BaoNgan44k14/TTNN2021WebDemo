@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx bx-error",
+        "content": "Đơn hàng lỗi"
+    },
+    {
+        "icon": "bx bx-package",
+        "content": "Mười đơn hàng mới"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "20 đơn đang chờ duyệt"
+    },
+    {
+        "icon": "bx bx-error",
+        "content": "Đơn hàng lỗi"
+    },
+    {
+        "icon": "bx bx-cart",
+        "content": "20 tài khoản mới truy cập"
+    }
+]

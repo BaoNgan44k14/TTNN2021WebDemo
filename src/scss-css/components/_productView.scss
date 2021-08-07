@@ -1,0 +1,170 @@
+.product{
+    @include flex(flex-start, flex-start);
+
+    &__title {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-top: -70px;
+        color: $main-color;
+        margin-bottom: -20px
+    }
+
+
+    &__images {
+        @include flex(flex-start, flex-start);
+
+        width: 80%;
+        flex-wrap: wrap;
+
+        &__list {
+            width: 20%;
+            img {
+                width: 100%;
+
+            }
+
+            &__item {
+                cursor: pointer;
+            }
+        }
+
+        &__main {
+            flex-grow: 1;
+            padding-top: 100%;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                height: 100%;
+                transform:  translateX(-50%);
+            }
+        }
+    }
+
+    &__info {
+        width: 100%;
+        padding: 0 4rem;
+        flex-grow: 1;
+
+        &__title {
+            font-weight: normal;
+        }
+
+        &__item {
+            margin-top: 1rem;
+
+            &__price {
+                color: $main-color;
+                font-size: 2rem;
+                font-weight: 600;
+            }
+
+            &__title {
+                font-size: 1.2rem;
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+
+            &__list {
+                @include flex(center, flex-start);
+
+                &__item {
+                    @include flex(center, center);
+
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    border: 2px solid $txt-second-color;
+                    cursor: pointer;
+                    margin-right: 1rem;
+
+                    &.active {
+                        border-color: $main-color;
+                    }
+
+                    &:hover {
+                        border-color: $main-color;
+                    }
+
+                    .circle {
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                    }
+
+                    &__size {
+                        font-size: 1.2rem;
+                        text-decoration: uppercase;
+                    }
+                }
+            }
+
+            &__quantity {
+                @include flex(flex-start, flex-start);
+
+                &__btn {
+                    @include flex(center,center);
+                    width: 30px;
+                    height: 30px;
+                    border: 1px solid $txt-second-color;
+                    font-size: 1.5rem;
+                    cursor: pointer;
+                    
+                    &:first-child {
+                        border-bottom-left-radius: 8px;
+                        border-top-left-radius: 8px;
+                    }
+                    &:last-child {
+                        border-bottom-right-radius: 8px;
+                        border-top-right-radius: 8px;
+                    }
+                }
+  
+                
+
+                &__input {
+                    @include flex(center, center);
+                    height: 30px;
+                    width: 60px;
+                    font-size: 1.5rem;
+                    border-top: 1px solid $txt-second-color;
+                    border-bottom: 1px solid $txt-second-color;
+                }
+            }
+
+            button {
+                @include flex(center, center);
+                height: 40px;
+                font-size: 1rem;
+                margin: 30px 0;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+.product-description {
+    width: 100%;
+    padding: 0 2rem;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+
+    &.expand {
+        height: max-content;
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0 0 5px 0;
+    }
+
+    &__content {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        text-align: justify;
+    }
+}

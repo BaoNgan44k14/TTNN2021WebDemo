@@ -1,0 +1,48 @@
+// Tạo các thuộc tính thường dùng
+
+$main-bg: #fff;
+$main-color: #4267b2;
+
+$txt-main-color: #000;
+$txt-second-color: #8d8d8d;
+$txt-white: #fff;
+$txt-note: #fe463c;
+
+$btn-main-bg: $main-color;
+$btn-main-color: #fff;
+
+$header-height: 170px;
+$header-tablet-height: 70px;
+$header-mobile-height: 40px;
+$header-shrink-height: 60px;
+
+$box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+$colors: (
+    "Xanh" : #4267b2,
+    "Cam" : #fbb96b,
+    "Hồng" : #fe7e73,
+    "Đen" : #000,
+    "Đỏ": red,
+    "Vàng": yellow,
+    "main" : $main-color
+);
+
+$mobile-width: 600px;
+$tablet-width: 1024px;
+
+$numbers: (0,1,2,3,4,5,6,7,8);
+
+:root {
+    --main-bg: #ffffff;
+    --second-bg: #fafafa;
+    --txt-color: #455560;
+    --txt-white: #fff;
+    --main-color: #349eff;
+    --second-color: #62b4ff;
+
+    --sidebar-width: 300px;
+    --border-radius: 15px;
+    --topnav-height: 110px;
+    --transition-cubic: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    --box-shadow: rgba(149, 157, 165, .2) 0px 8px 24px;
+}
