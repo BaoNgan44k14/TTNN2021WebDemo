@@ -4,7 +4,6 @@ import reportWebVitals from './reportWebVitals';
 import 'boxicons';
 // 
 import './scss-css/index.scss';
-import AppRouter from './AppRouter';
 import LayoutAdmin from './adminpage/layout/LayoutAdmin';
 import LayoutHome from './homepage/layout/LayoutHome';
 // 
