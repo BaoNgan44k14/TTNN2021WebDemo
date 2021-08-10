@@ -10,7 +10,7 @@ import user_menu from '../../assets/datajson/user_menulogin.json'
 const mainNav = [
     {
         display: "Trang Chủ",
-        path:"/home"
+        path:"/"
     },
     {
         display: "Sản Phẩm",

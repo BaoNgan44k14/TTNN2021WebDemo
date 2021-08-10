@@ -9,7 +9,8 @@ import FormControl from '../../allcomponents/formcontrol/FormControl';
 import LayoutAdmin from '../../adminpage/layout/LayoutAdmin';
 
 
-function Login() {
+
+function Login(props) {
 
     const [errorTitle, setError] = useState("");
 
@@ -44,8 +45,9 @@ function Login() {
        if (values.email === adminUser.email && values.password === adminUser.password)
        {
            console.log("Đăng nhập thành công");
+           history.push("/admin");
+        
            
-        //    history.replace("/admin")
           
        }
        else if (values.email === userAccount.email && values.password === userAccount.password) {
@@ -95,8 +97,6 @@ function Login() {
                             <button 
                                 className="formLogin__btn" 
                                 type="submit"
-                                
-                                
                             >Đăng Nhập</button>
                         </Form>
                 }

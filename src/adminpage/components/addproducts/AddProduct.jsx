@@ -69,7 +69,7 @@ function AddProduct() {
                         {
                             formik => {
                                 return <Form className='New-Product'>
-                                    <h2 className="page-header">ADD NEW PRODUCT</h2>
+                                    <h2 className="page-header">THÊM MỚI SẢN PHẨM</h2>
                                     
                                     <FormControl 
                                         control='input'

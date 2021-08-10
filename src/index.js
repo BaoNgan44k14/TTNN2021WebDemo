@@ -6,6 +6,8 @@ import 'boxicons';
 import './scss-css/index.scss';
 import LayoutAdmin from './adminpage/layout/LayoutAdmin';
 import LayoutHome from './homepage/layout/LayoutHome';
+import AppRouter from './AppRouter'
+import {BrowserRouter} from 'react-router-dom'
 // 
 
 
@@ -14,8 +16,9 @@ import LayoutHome from './homepage/layout/LayoutHome';
 
 ReactDOM.render(
   <React.StrictMode>
-    
-    <LayoutAdmin />
+    <BrowserRouter>
+        <AppRouter/>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

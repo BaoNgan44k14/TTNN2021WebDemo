@@ -11,7 +11,7 @@ import Register from './components/Register'
 const Router = () => {
     return (
         <Switch>
-            <Route path='/home' exact component={Home} />
+            <Route path='/' exact component={Home} />
             <Route path='/cart' exact component={Cart} />
             <Route path='/products' exact component={Products} />
             <Route path='/detail/:slug' exact component={ProductDetail} />

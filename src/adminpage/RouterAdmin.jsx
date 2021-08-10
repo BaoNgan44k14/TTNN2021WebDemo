@@ -12,7 +12,6 @@ import LayoutAdmin from './layout/LayoutAdmin'
 const RouterAdmin = () => {
     return (
         <Switch>
-                <Route path='/admin' exact component={LayoutAdmin} />
                 <Route path='/dashboard' exact component={Dashboard} />
                 <Route path='/orders' exact  component={Orders} />
                 <Route path='/management' exact component={ProductManagement} />

@@ -56,7 +56,7 @@ function AddAccount() {
                         {
                             formik => {
                                 return <Form className='New-Product'>
-                                    <h2 className="page-header">ADD NEW ACCOUNT</h2>
+                                    <h2 className="page-header">THÊM MỚI TÀI KHOẢN</h2>
                                     
                                     <FormControl 
                                         control='input'
