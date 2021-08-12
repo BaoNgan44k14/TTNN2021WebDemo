@@ -15,7 +15,6 @@ function AddAccount() {
 
     const initialValues = {
         name: '',
-        username:'',
         email: '',
         password: '',
         confirmPassword: '',
@@ -25,7 +24,6 @@ function AddAccount() {
     }
     const validationSchema = Yup.object ({
         name: Yup.string().required('Nhập tên của bạn!'),
-        username: Yup.string().required('Nhập tên đăng nhập!'),
         email: Yup.string()
         .email('Email không hợp lệ')
         .required('Vui lòng nhập email!'),
@@ -63,12 +61,6 @@ function AddAccount() {
                                         type='text'
                                         label='Tên'
                                         name='name'
-                                    />
-                                    <FormControl 
-                                        control='input'
-                                        type='text'
-                                        label='UserName'
-                                        name='username'
                                     />
                                     <FormControl 
                                         control='input'

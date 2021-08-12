@@ -52,7 +52,7 @@ function Login(props) {
        }
        else if (values.email === userAccount.email && values.password === userAccount.password) {
             console.log("Đăng nhập thành công");
-            history.push("/home");
+            history.push("/");
             
        }
        else {
@@ -79,7 +79,7 @@ function Login(props) {
                             <FormControl 
                                 control='input'
                                 type='email'
-                                label='Email'
+                                label='Email:'
                                 name='email'
                                 
 
@@ -87,7 +87,7 @@ function Login(props) {
                             <FormControl 
                                 control='input'
                                 type='password'
-                                label='Password'
+                                label='Mật khẩu:'
                                 name='password'
                                
                                 />

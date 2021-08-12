@@ -13,7 +13,7 @@
     display: block;
     position: relative;
     width: 300px;
-    margin-top: calc(#{$header-height} * -2);
+    margin-top: calc(#{$header-height} * -1);
     @include tablet {
         margin-top: calc(#{$header-tablet-height} * -2);
     }
@@ -87,11 +87,10 @@
 
        
     }
-
+    &__logged,
     &__register {
         font-size: 0.9rem;
         @include flex(center, center);
-        margin: 5px 0 0 120px;
         color: red;
         text-decoration: underline;
         
@@ -102,6 +101,12 @@
             color: red;
             text-decoration: underline;
         }
+    }
+    &__logged {
+        margin: 0 0 0 170px;
+    }
+    &__register {
+        margin: 0 0 0 120px;
     }
 }
 

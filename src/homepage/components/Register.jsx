@@ -42,24 +42,24 @@ function Register() {
                     <FormControl 
                         control='input'
                         type='email'
-                        label='Email'
+                        label='Email:'
                         name='email'
                         
                         />
                     <FormControl 
                         control='input'
                         type='password'
-                        label='Password'
+                        label='Mật khẩu:'
                         name='password'
                         />
                      <FormControl 
                         control='input'
                         type='password'
-                        label='Confirm Password'
+                        label='Nhập lại mật khẩu:'
                         name='confirmPassword'
                         />
                     <Link to="/login">
-                            <a className="formLogin__register">Đăng nhập ngay!</a>
+                            <a className="formLogin__logged">Đăng nhập ngay!</a>
                     </Link>
                     <input className="formLogin__btn" type="submit" value="Đăng Ký"  />
                 </Form>

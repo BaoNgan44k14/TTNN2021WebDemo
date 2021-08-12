@@ -18,6 +18,3 @@
 ## scss-css: Chứa các file css cho trình duyệt có file index.scss là file chính 
 
 2. Cách chạy:
-## index.js: dùng để chạy trình duyệt 
--- <LayoutAdmin /> : Trang admin
--- <LayoutHome /> : Trang web chính

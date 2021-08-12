@@ -40,6 +40,7 @@ const renderBody = (item, index) => (
         </td>
         <td > 
                 <ButtonDelete>
+                    
                     <i class='bx bx-trash'></i>
                 </ButtonDelete>
                 
