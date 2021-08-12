@@ -56,6 +56,7 @@ function AddProduct() {
     })
     const onSubmit = values => {
        console.log(values)
+       alert("Thêm sản phẩm thành công!")
     }
     return (
         <div className='Product-new'>
@@ -119,7 +120,9 @@ function AddProduct() {
                                         name='price'
                                     />
                                     <div className="btn__submit">
-                                        <button className="btn__submit-button" type="submit">
+                                        <button className="btn__submit-button" 
+                                        type="submit"
+                                        onClick="alert('Thêm tài khoản thành công!')">
                                             Lưu
                                         </button>
                                     </div>

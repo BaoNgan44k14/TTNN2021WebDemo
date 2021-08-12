@@ -25,6 +25,7 @@ function Register() {
     })
     const onSubmit = values => {
         console.log('Form data', values)
+        alert("Đăng Ký thành công!")
     }
    
     return <div className="Login">

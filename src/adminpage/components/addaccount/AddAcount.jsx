@@ -5,7 +5,7 @@ import {Form, Formik} from 'formik'
 import FormControl from '../../../allcomponents/formcontrol/FormControl'
 
 function AddAccount() {
-
+   
     // Select
     const radioGender = [
         {key: 'Nam', value: 'nam'},
@@ -41,6 +41,7 @@ function AddAccount() {
     })
     const onSubmit = values => {
        console.log(values)
+       alert("Thêm sản phẩm thành công!")
     }
     return (
         <div className='Product-new'>
@@ -99,7 +100,8 @@ function AddAccount() {
                                         name='address'
                                     />
                                     <div className="btn__submit">
-                                        <button className="btn__submit-button" type="submit">
+                                        <button className="btn__submit-button" 
+                                        type="submit" >
                                             Lưu
                                         </button>
                                     </div>

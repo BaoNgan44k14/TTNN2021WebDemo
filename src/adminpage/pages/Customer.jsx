@@ -13,7 +13,6 @@ import ButtonDelete from '../../homepage/components/ButtonDelete'
 const customerTableHead = [
     'ID',
     'Tên',
-    'username',
     'email',
     'mật khẩu',
     'số điện thoại',
@@ -27,7 +26,6 @@ const renderBody = (item, index) => (
     <tr key={index}>
         <td>{item.ID}</td>
         <td>{item.name}</td>
-        <td>{item.username}</td>
         <td>{item.email}</td>
         <td>{item.password}</td>
         <td>{item.phone}</td>
