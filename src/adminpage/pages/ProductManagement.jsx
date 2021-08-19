@@ -52,7 +52,7 @@ const ProductManagement = () => {
         <div>
             <div className="products__label">
                 <h2 className="page-header">
-                    Products
+                    Quản lý sản phẩm
                 </h2>
                 <div className="products__right-item">
                     <Link to="/newproduct">

@@ -41,7 +41,7 @@ function AddAccount() {
     })
     const onSubmit = values => {
        console.log(values)
-       alert("Thêm sản phẩm thành công!")
+       alert("Thêm tài khoản thành công!")
     }
     return (
         <div className='Product-new'>

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import 'boxicons';
 // 
-import './scss-css/index.scss';
+import './scss/index.scss';
 import LayoutAdmin from './adminpage/layout/LayoutAdmin';
 import LayoutHome from './homepage/layout/LayoutHome';
 import AppRouter from './AppRouter'
